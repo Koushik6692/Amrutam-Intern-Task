@@ -1,0 +1,1007 @@
+.appointmentFee,
+.div {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.div {
+  display: inline-block;
+  min-width: 83px;
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.5px 0 0;
+  color: #3a643b;
+  font-family: Inter;
+}
+.appointmentFeeParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appointmentFeeParent {
+  flex: 1;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  justify-content: space-between;
+  padding: 14px 29px 14px 27px;
+  gap: 20px;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 3px 13.7px 2px;
+}
+.selectYourMode {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 13px;
+  box-sizing: border-box;
+}
+.frameContainer,
+.selectYourModeOfSessionParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.selectYourModeOfSessionParent {
+  align-items: flex-end;
+  gap: 20px;
+}
+.frameContainer {
+  align-items: flex-start;
+  padding: 0 8px 9.7px 14px;
+  box-sizing: border-box;
+}
+.inClinic,
+.mins {
+  position: relative;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+.inClinic {
+  width: 71px;
+  font-weight: 500;
+  min-width: 71px;
+}
+.mins {
+  min-width: 62px;
+}
+.minsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 4px 0 6px;
+  color: #606060;
+  font-family: Nunito;
+}
+.inClinicParent {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 19px 42px 10px;
+  gap: 4px;
+}
+.video {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 55px;
+}
+.connectionHandlerChild {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #3a643b;
+}
+.frameIcon {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.connectionHandler,
+.videoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionHandler {
+  height: 21px;
+  position: relative;
+  gap: 10px;
+}
+.videoParent {
+  width: 83px;
+  gap: 8px;
+}
+.mins1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  min-width: 62px;
+}
+.inputFilter,
+.minsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.minsContainer {
+  flex-direction: row;
+  padding: 0 3px;
+  font-size: 16px;
+  color: #606060;
+  font-family: Nunito;
+}
+.inputFilter {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #f2fbf2;
+  border: 1px solid rgba(58, 100, 59, 0.52);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 16px 36px 10px 51px;
+  gap: 4px;
+  min-width: 112px;
+  font-size: 18px;
+  color: #3a643b;
+}
+.chat {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.chatWrapper {
+  width: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+.mins2 {
+  position: relative;
+  letter-spacing: 0.5px;
+  font-family: Nunito;
+  color: #606060;
+  display: inline-block;
+  min-width: 62px;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  flex: 0.8052;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 18px 51px 11px;
+  gap: 4px;
+  min-width: 108px;
+  color: #131313;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 6.7px;
+  gap: 22px;
+  font-size: 16px;
+  color: #1f1f1f;
+  font-family: "Gotham Rounded";
+}
+.timeSlot {
+  text-transform: lowercase;
+}
+.pickATimeContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.pickATimeSlotWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px 0 0;
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 21px 0 0;
+  box-sizing: border-box;
+  min-width: 189px;
+}
+.frameInner {
+  width: 44px;
+  height: 43px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 0 solid #8a8a8a;
+  box-sizing: border-box;
+}
+.calendarIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 11px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: center;
+  gap: 9px;
+  min-width: 224px;
+}
+.frameParent2,
+.frameParent3,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 2px 0 11px;
+  box-sizing: border-box;
+}
+.daIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: contain;
+}
+.daWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 0 0;
+}
+.mon10Oct,
+.slots {
+  position: relative;
+  display: inline-block;
+}
+.mon10Oct {
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  min-width: 95px;
+}
+.slots {
+  min-width: 60px;
+}
+.date,
+.slotsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.slotsWrapper {
+  flex-direction: row;
+  padding: 0 18px 0 17.5px;
+  color: #818181;
+  font-family: Nunito;
+}
+.date {
+  flex: 1;
+  border-radius: 11px;
+  background-color: #f2fbf2;
+  border: 0.5px solid #3a643b;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 17px 13px 14px;
+  gap: 8px;
+  min-width: 93px;
+}
+.slots1,
+.tue11Oct {
+  position: relative;
+  display: inline-block;
+}
+.tue11Oct {
+  letter-spacing: 0.2px;
+  line-height: 19.2px;
+  min-width: 85px;
+}
+.slots1 {
+  min-width: 60px;
+}
+.date1,
+.slotsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.slotsContainer {
+  flex-direction: row;
+  padding: 0 13px 0 12.5px;
+  color: #d5512e;
+  font-family: Nunito;
+}
+.date1 {
+  flex: 0.8958;
+  border-radius: 11px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 14px 17px 14px 18px;
+  gap: 8px;
+  min-width: 93px;
+  color: #131313;
+}
+.slots2,
+.wed12Oct {
+  position: relative;
+  display: inline-block;
+}
+.wed12Oct {
+  letter-spacing: 0.2px;
+  min-width: 94px;
+}
+.slots2 {
+  min-width: 60px;
+}
+.slotsFrame {
+  flex-direction: row;
+  padding: 0 17px;
+  color: #f1b93a;
+  font-family: Nunito;
+}
+.date2,
+.div1,
+.slotsFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date2 {
+  flex: 0.9896;
+  border-radius: 11px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 14px 13px;
+  gap: 8px;
+  min-width: 93px;
+  color: #0d0d0d;
+}
+.div1 {
+  flex: 1;
+  flex-direction: row;
+  gap: 10px;
+  min-width: 253px;
+  max-width: 100%;
+}
+.daIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.daContainer,
+.frameParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 0 0;
+}
+.frameParent4 {
+  align-self: stretch;
+  border-radius: 21px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 22px 31px 17px 32px;
+  gap: 18px;
+  max-width: 100%;
+  font-size: 16px;
+  color: #3a643b;
+  font-family: Inter;
+}
+.errorHandler,
+.frameParent1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 21px;
+}
+.errorHandler {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 8px 3.7px 10px;
+  box-sizing: border-box;
+}
+.am,
+.morning {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.morning {
+  width: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.am {
+  font-size: 15px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+}
+.time {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 16px;
+  background-color: #fff;
+  width: 106px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time1:hover,
+.time2:hover,
+.time3:hover,
+.time4:hover,
+.time:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+}
+.am1 {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 18.4px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 72px;
+  white-space: nowrap;
+}
+.time1 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 15px;
+  background-color: #fff;
+  width: 105px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.am2 {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+}
+.time2 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 17px;
+  background-color: #fff;
+  width: 106px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.am3 {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+}
+.time3 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 18px;
+  background-color: #fff;
+  width: 105px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.am4 {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+}
+.time4 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 17px;
+  background-color: #fff;
+  width: 106px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.am5 {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 62px;
+  white-space: nowrap;
+}
+.time5,
+.time5:hover {
+  box-sizing: border-box;
+}
+.time5 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 23px 14px;
+  background-color: #3a643b;
+  width: 92px;
+  border-radius: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time5:hover {
+  background-color: #618a61;
+  border: 1px solid #d1d1d1;
+}
+.frameWrapper2,
+.morningParent,
+.timeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 50px 0 0;
+  box-sizing: border-box;
+  gap: 13px 12px;
+  min-height: 147px;
+}
+.frameWrapper2,
+.morningParent {
+  max-width: 100%;
+}
+.morningParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 9px;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 19px 0 21px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.evening,
+.pm {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.evening {
+  width: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pm {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.time6 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 22px 13px;
+  background-color: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time10:hover,
+.time6:hover,
+.time7:hover,
+.time8:hover,
+.time9:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+}
+.pm1 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 73px;
+  white-space: nowrap;
+}
+.time7 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 22px 14px;
+  background-color: #fff;
+  width: 104px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pm2 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.time8 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 22px 12px;
+  background-color: #fff;
+  width: 103px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pm3 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 19.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.time9 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 22px 13px;
+  background-color: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pm4 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  font-family: Inter;
+  color: #131313;
+  text-align: center;
+  display: inline-block;
+  min-width: 72px;
+  white-space: nowrap;
+}
+.time10 {
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  padding: 22px 15px;
+  background-color: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.eveningParent,
+.frameWrapper3,
+.timeGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 57px 0 0;
+  box-sizing: border-box;
+  gap: 13px 12px;
+  min-height: 147px;
+}
+.eveningParent,
+.frameWrapper3 {
+  max-width: 100%;
+}
+.eveningParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 16px 9.2px 24px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.makeAnAppointment {
+  position: relative;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.frameParent,
+.frameWrapper4,
+.makeAnAppointmentWrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.makeAnAppointmentWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 17.9px 20px 17.8px 28px;
+  background-color: #3a643b;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.makeAnAppointmentWrapper:hover {
+  background-color: #618a61;
+}
+.frameParent,
+.frameWrapper4 {
+  justify-content: flex-start;
+}
+.frameWrapper4 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 34px 0 37.8px;
+}
+.frameParent {
+  width: 584px;
+  border-radius: 29px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 32px 17px 44px;
+  gap: 31.3px;
+  min-width: 584px;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Nunito;
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    padding-top: 21px;
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .div1,
+  .frameGroup,
+  .frameParent2,
+  .frameParent4,
+  .selectYourModeOfSessionParent {
+    flex-wrap: wrap;
+  }
+  .timeGroup,
+  .timeParent {
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+  .timeGroup {
+    padding-right: 28px;
+  }
+  .frameParent {
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .appointmentFee,
+  .div {
+    font-size: 16px;
+  }
+  .appointmentFeeParent {
+    flex-wrap: wrap;
+  }
+  .selectYourMode {
+    font-size: 16px;
+  }
+  .frameDiv {
+    flex: 1;
+  }
+  .pickATimeContainer {
+    font-size: 16px;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .date1,
+  .date2 {
+    flex: 1;
+  }
+}

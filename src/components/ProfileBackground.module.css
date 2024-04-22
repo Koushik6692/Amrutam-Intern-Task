@@ -1,0 +1,52 @@
+.image159Icon {
+  height: 213px;
+  width: 1220px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.image159Icon1,
+.image160Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image160Icon {
+  top: -2px;
+  left: -9px;
+  width: 1229px;
+  height: 168px;
+  z-index: 1;
+}
+.image159Group,
+.image159Parent {
+  border-radius: 12px;
+  background-color: #eaf2ea;
+  overflow: hidden;
+}
+.image159Group {
+  height: 213px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.image159Parent {
+  height: 166px;
+  width: 1243px;
+  margin: 0 !important;
+  position: absolute;
+  top: -128px;
+  right: -23px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 23px 0 0;
+  box-sizing: border-box;
+}

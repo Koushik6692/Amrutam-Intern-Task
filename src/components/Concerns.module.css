@@ -1,0 +1,310 @@
+.frameChild {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: none;
+}
+.theConcernsI {
+  position: relative;
+  font-weight: 600;
+}
+.theConcernsITreatWrapper {
+  align-self: stretch;
+  border-radius: 15px 18px 0 0;
+  background: linear-gradient(90deg, #f4f7ec, #f4f7ec 0.01%, #fdfdfd);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14.5px 28px;
+  z-index: 1;
+}
+.heading5 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 122px;
+}
+.heading5OperationsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 12.5px 16px;
+  background-color: #f7f7fc;
+  border-radius: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameButton:hover,
+.heading5OperationsContainer:hover,
+.heading5OperationsFrame:hover,
+.heading5OperationsWrapper1:hover,
+.heading5OperationsWrapper:hover {
+  background-color: #dedee3;
+}
+.heading51 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 87px;
+}
+.frameContainer,
+.heading5OperationsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.heading5OperationsContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 13px;
+  background-color: #f7f7fc;
+  border-radius: 18px;
+  align-items: flex-start;
+  z-index: 1;
+}
+.frameContainer {
+  align-items: flex-end;
+  gap: 11px;
+}
+.heading52 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+.heading5OperationsFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24.5px;
+  background-color: #f7f7fc;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.heading53 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 10.5px;
+  background-color: #f7f7fc;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: row;
+  gap: 16px;
+}
+.frameDiv,
+.frameGroup,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 187px;
+}
+.heading54 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 113px;
+}
+.heading5OperationsWrapper1 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 11px;
+  background-color: #f7f7fc;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.heading55 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.frameWrapper2,
+.heading5OperationsWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.heading5OperationsWrapper2 {
+  cursor: pointer;
+  border: 1px solid #e0dfdf;
+  padding: 10px 23px;
+  background-color: transparent;
+  border-radius: 18px;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.heading5OperationsWrapper2:hover {
+  background-color: transparent;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+}
+.frameWrapper2 {
+  justify-content: flex-end;
+  padding: 0 7px 0 9px;
+}
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  align-items: flex-end;
+  gap: 18px;
+}
+.frameWrapper1 {
+  align-items: flex-start;
+  padding: 1px 8px 0 0;
+}
+.heading56 {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 115px;
+}
+.heading5OperationsWrapper3 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 10px;
+  background-color: #f7f7fc;
+  border-radius: 18px;
+  flex-direction: row;
+  z-index: 1;
+}
+.heading5OperationsWrapper3:hover {
+  background-color: #dedee3;
+}
+.frameParent,
+.frameWrapper,
+.frameWrapper3,
+.heading5OperationsWrapper3,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper3 {
+  flex-direction: column;
+  padding: 1px 0 0;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  gap: 2px;
+}
+.frameWrapper,
+.rectangleParent {
+  align-self: stretch;
+  padding: 0 31px 0 24px;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  flex-direction: column;
+  padding: 0 1px 29px;
+  gap: 24px;
+  text-align: left;
+  font-size: 24px;
+  color: #313131;
+  font-family: Nunito;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theConcernsI {
+    font-size: 19px;
+  }
+  .frameContainer,
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+}

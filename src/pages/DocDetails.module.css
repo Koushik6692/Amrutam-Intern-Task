@@ -1,0 +1,108 @@
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px;
+}
+.frameDiv,
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+  min-width: 409px;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 29px;
+}
+.frameContainer,
+.frameGroup,
+.frameParent,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  width: 632px;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameParent {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 34px;
+}
+.frameParent {
+  width: 1243px;
+  gap: 41px;
+}
+.desktop73,
+.desktop73Inner {
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop73Inner {
+  width: 1417px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.desktop73 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 85px;
+  gap: 189px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameDiv {
+    gap: 16px;
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: 17px;
+  }
+  .frameParent {
+    gap: 20px;
+  }
+  .desktop73 {
+    gap: 94px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .desktop73 {
+    gap: 47px;
+  }
+}

@@ -1,0 +1,570 @@
+.hairCare {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 73px;
+}
+.frameChild {
+  width: 11.2px;
+  height: 11.3px;
+  position: relative;
+}
+.frameWrapper,
+.hairCareParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.9px 0 0;
+}
+.hairCareParent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 22.4px;
+  background-color: #eaf2ea;
+  border-radius: 31px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 10px;
+}
+.female {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 58px;
+}
+.frameItem {
+  width: 11.2px;
+  height: 11.3px;
+  position: relative;
+}
+.femaleParent,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.9px 0 0;
+}
+.femaleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 23.9px;
+  background-color: #eaf2ea;
+  border-radius: 31px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 9px;
+}
+.rs0Rs500 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 98px;
+}
+.frameInner {
+  width: 11.2px;
+  height: 11.3px;
+  position: relative;
+}
+.frameWrapper1,
+.rs0Rs500Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.9px 0 0;
+}
+.rs0Rs500Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 17px;
+  background-color: #eaf2ea;
+  border-radius: 31px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 10px;
+}
+.hindi {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 42px;
+}
+.groupIcon {
+  width: 11.2px;
+  height: 11.3px;
+  position: relative;
+}
+.frameContainer,
+.frameWrapper2,
+.hindiParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  flex-direction: column;
+  padding: 3.9px 0 0;
+}
+.frameContainer,
+.hindiParent {
+  flex-direction: row;
+}
+.hindiParent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 20.9px;
+  background-color: #eaf2ea;
+  border-radius: 31px;
+  overflow: hidden;
+  gap: 9px;
+}
+.frameContainer {
+  gap: 16px;
+  max-width: 100%;
+}
+.ellipseIcon {
+  height: 150px;
+  width: 149px;
+  position: absolute;
+  margin: 0 !important;
+  top: -126px;
+  left: -47px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.checkboxLabel {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 18px;
+  font-family: DINPro-Bold;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 22px;
+}
+.dropAreaLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.materialSymbolsstarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.sliderValue {
+  cursor: pointer;
+  border: 0;
+  padding: 4px 12px;
+  background-color: transparent;
+  border-radius: 17px;
+  background: linear-gradient(180deg, #0b0b0b, rgba(11, 11, 11, 0.79));
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 4px;
+  z-index: 1;
+}
+.ellipseParent,
+.frameWrapper4,
+.sliderValue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ellipseParent {
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper4 {
+  width: 274px;
+  justify-content: center;
+}
+.drPrernaNarang {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.generalMedicalCheckup {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.frameParent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.frameIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.generalMedicalCheckup1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.comment1Icon {
+  height: 16px;
+  width: 18px;
+  position: relative;
+  object-fit: contain;
+}
+.speaksEnglishHindi {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+}
+.comment1Parent,
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.comment1Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: #656565;
+}
+.frameParent4 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 21px;
+  gap: 7px;
+}
+.b,
+.videoConsultation {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  display: inline-block;
+}
+.videoConsultation {
+  font-weight: 600;
+  min-width: 120px;
+}
+.b {
+  color: #3a643b;
+  min-width: 34px;
+  white-space: nowrap;
+}
+.videoConsultationParent {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff7e2;
+  border: 1px solid rgba(58, 100, 59, 0.39);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 7px 3px;
+  gap: 4px;
+  min-width: 102px;
+}
+.chatConsultation,
+.free {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  display: inline-block;
+}
+.chatConsultation {
+  font-weight: 600;
+  min-width: 113px;
+}
+.free {
+  color: #3a643b;
+  min-width: 28px;
+}
+.chatConsultationParent {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff7e2;
+  border: 1px solid rgba(58, 100, 59, 0.39);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 7px 3px;
+  gap: 4px;
+  min-width: 97px;
+}
+.frameParent3,
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent7 {
+  flex-direction: row;
+  padding: 0 8px;
+  gap: 8px;
+  font-size: 14px;
+  color: #3c3c3c;
+}
+.frameParent3 {
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  color: #646665;
+}
+.drPrernaNarangParent,
+.frameWrapper5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.drPrernaNarangParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.frameWrapper5 {
+  width: 289px;
+  flex-direction: row;
+  padding: 0 0 11px;
+  box-sizing: border-box;
+}
+.viewProfile {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Nunito;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 88px;
+}
+.frameWrapper7,
+.viewProfileWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.viewProfileWrapper {
+  cursor: pointer;
+  border: 1px solid #3a643b;
+  padding: 9px 20px;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+  white-space: nowrap;
+}
+.viewProfileWrapper:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #618a61;
+  box-sizing: border-box;
+}
+.frameWrapper7 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 1px 0 1.5px;
+}
+.bookAConsultation {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Nunito;
+  color: #fff;
+  text-align: left;
+}
+.bookAConsultationWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 16.5px 72.5px;
+  background-color: #3a643b;
+  align-self: stretch;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.bookAConsultationWrapper:hover {
+  background-color: #618a61;
+}
+.bookAConsultationWrapper,
+.frameParent8,
+.frameWrapper6 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent8 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.frameWrapper6 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 1px 0 6px;
+}
+.frameParent2 {
+  width: 356px;
+  box-shadow: 0 4px 12.5px rgba(0, 0, 0, 0.07);
+  border-radius: 30px;
+  background-color: #fff7e2;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 153px 30px 24px;
+  gap: 21px;
+}
+.frameParent1,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 4.2px 0 0;
+  box-sizing: border-box;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 53px;
+  min-width: 491px;
+  max-width: 100%;
+}
+.doctorsSection,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 14%;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1152.2px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.desktop75Inner {
+  width: 1395.8px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 32px;
+  color: #2e2f2e;
+  font-family: Nunito;
+}
+@media screen and (max-width: 975px) {
+  .drPrernaNarang {
+    font-size: 26px;
+    line-height: 22px;
+  }
+  .frameParent1 {
+    gap: 20px;
+  }
+  .frameGroup {
+    gap: 26px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .frameParent2 {
+    padding-top: 99px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .drPrernaNarang {
+    font-size: 19px;
+    line-height: 17px;
+  }
+  .frameParent7 {
+    flex-wrap: wrap;
+  }
+}

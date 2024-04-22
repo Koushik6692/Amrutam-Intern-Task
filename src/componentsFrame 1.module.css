@@ -1,0 +1,175 @@
+.frameChild {
+  height: 94px;
+  width: 1440px;
+  position: relative;
+  background-color: #fff7e2;
+  display: none;
+  max-width: 100%;
+}
+.image45Icon {
+  height: 49px;
+  width: 259px;
+  position: relative;
+  object-fit: cover;
+}
+.aboutUs,
+.findDoctors,
+.home {
+  position: relative;
+  line-height: 140%;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.home {
+  font-weight: 500;
+  min-width: 53px;
+}
+.aboutUs,
+.findDoctors {
+  white-space: nowrap;
+}
+.findDoctors {
+  font-family: DINPro-Bold;
+  color: #3a643b;
+  min-width: 116px;
+}
+.aboutUs {
+  font-weight: 500;
+  min-width: 81px;
+}
+.homeParent,
+.image45Parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.homeParent {
+  margin: 0;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #474747;
+  font-family: DINPro;
+}
+.image45Parent {
+  width: 669px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+}
+.login {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: DINPro;
+  color: #3a643b;
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+  white-space: nowrap;
+}
+.loginWrapper {
+  cursor: pointer;
+  border: 1px solid #3a643b;
+  padding: 10.5px 29px 15.5px;
+  background-color: #fff7e2;
+  height: 58px;
+  border-radius: 11px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.loginWrapper:hover {
+  background-color: #e6dec9;
+  border: 1px solid #618a61;
+  box-sizing: border-box;
+}
+.signUp {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: DINPro;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  white-space: nowrap;
+}
+.frameGroup,
+.signUpWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.signUpWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 10.5px 39px 14.5px;
+  background-color: #3a643b;
+  border-radius: 11px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.signUpWrapper:hover {
+  background-color: #618a61;
+}
+.frameGroup {
+  height: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1232px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: #fff7e2;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 23px 20px 15px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+@media screen and (max-width: 1050px) {
+  .homeParent {
+    display: none;
+  }
+  .image45Parent {
+    width: 339px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image45Parent {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image45Parent {
+    gap: 20px;
+  }
+  .frameGroup {
+    display: none;
+  }
+  .frameParent {
+    width: 935px;
+  }
+}

@@ -1,0 +1,357 @@
+.frameChild {
+  height: 151px;
+  width: 1220px;
+  position: relative;
+  background-color: #fffbf1;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.heading4 {
+  margin-right: -10px;
+  width: 162px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 3;
+}
+.heading4DrBruceWillisWrapper {
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.frameIcon {
+  height: 13px;
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  left: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.polygonParent {
+  height: 23px;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 4;
+}
+.frameContainer,
+.frameWrapper,
+.polygonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  padding: 0 0 0 1.5px;
+}
+.heading5 {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 3;
+}
+.heading5SeniorDoctorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1.5px;
+}
+.div {
+  height: 17px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 24px;
+  z-index: 3;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.5px 0 0;
+}
+.starsIcon,
+.starsIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 22px;
+  z-index: 4;
+}
+.starsIcon1 {
+  left: 18.5px;
+  z-index: 5;
+}
+.starsIcon2,
+.starsIcon3,
+.starsParent {
+  height: 22px;
+  width: 38.5px;
+  position: relative;
+}
+.starsIcon2,
+.starsIcon3 {
+  width: 20px;
+  min-height: 22px;
+  z-index: 6;
+}
+.starsIcon3 {
+  z-index: 7;
+}
+.frameDiv,
+.frameGroup,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: row;
+  color: #626262;
+  font-family: Nunito;
+}
+.frameDiv,
+.frameGroup {
+  flex-direction: column;
+}
+.frameDiv {
+  gap: 12px;
+  font-size: 15px;
+  color: #3a643b;
+}
+.frameGroup {
+  gap: 7px;
+}
+.heading41,
+.heading51 {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 65.8px;
+  z-index: 3;
+}
+.heading41 {
+  line-height: 24px;
+  font-weight: 600;
+  min-width: 39px;
+}
+.heading4850Wrapper,
+.heading5FollowersParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading4850Wrapper {
+  flex-direction: row;
+  padding: 0 13px 0 13.4px;
+  font-size: 20px;
+  color: #212529;
+}
+.heading5FollowersParent {
+  flex-direction: column;
+  gap: 5px;
+}
+.heading42,
+.heading52 {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66.6px;
+  z-index: 3;
+}
+.heading42 {
+  line-height: 24px;
+  font-weight: 600;
+  min-width: 34px;
+}
+.heading418kWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 16px;
+  font-size: 20px;
+  color: #212529;
+}
+.heading5FollowingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.heading43,
+.heading53 {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 37.7px;
+  z-index: 3;
+}
+.heading43 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #212529;
+  min-width: 37.6px;
+}
+.frameParent2,
+.heading5PostsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.frameParent2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameParent,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+  min-width: 207px;
+  text-align: center;
+  font-size: 14px;
+  color: #3a643b;
+}
+.frameParent {
+  width: 573.6px;
+  flex-direction: row;
+  gap: 79px;
+  max-width: 100%;
+}
+.bookAnAppointment {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.bookAnAppointmentWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 17.5px 33.5px;
+  background-color: #3a643b;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 3;
+}
+.bookAnAppointmentWrapper:hover {
+  background-color: #618a61;
+}
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 10px;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #fffbf1;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 36px 49px 31px 210px;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 2;
+  text-align: left;
+  font-size: 20px;
+  color: #212529;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: 105px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 39px;
+  }
+  .rectangleParent {
+    padding-left: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading4 {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .heading41,
+  .heading42,
+  .heading43 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 20px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}

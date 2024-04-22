@@ -1,0 +1,24 @@
+.frameChild {
+  height: 159px;
+  width: 159px;
+  position: absolute;
+  margin: 0 !important;
+  top: -33px;
+  left: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 3;
+}
+.frameParent {
+  width: 1220px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #212529;
+  font-family: Poppins;
+}

@@ -1,0 +1,49 @@
+.frameChild {
+  align-self: stretch;
+  height: 524px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: none;
+}
+.featuredReviews102 {
+  position: relative;
+  font-weight: 600;
+}
+.featuredReviews102Wrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuredReviews102Wrapper {
+  align-self: stretch;
+  border-radius: 15px 18px 0 0;
+  background: linear-gradient(90deg, #f4f7ec, #fbfbfb);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 17px 31px;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 35px 1px;
+  gap: 22.5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #313131;
+  font-family: Nunito;
+}
+@media screen and (max-width: 450px) {
+  .featuredReviews102 {
+    font-size: 19px;
+  }
+}

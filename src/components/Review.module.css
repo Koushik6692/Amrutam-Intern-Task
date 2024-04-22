@@ -1,0 +1,135 @@
+.frameChild {
+  height: 56px;
+  width: 54px;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.alicentHightower {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.consultedForSkin {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: #939393;
+}
+.alicentHightowerParent,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alicentHightowerParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 125px;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 8px;
+}
+.icon,
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  height: 20.3px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.frameContainer,
+.iconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.frameContainer {
+  width: 255px;
+  flex-direction: column;
+  gap: 15px;
+}
+.january2023 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 119px;
+}
+.frameGroup,
+.january2023Wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.january2023Wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15.5px 0 0;
+  font-size: 16px;
+  color: #979797;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.mightBeBit {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  color: #2e2f2e;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  border-radius: 17px;
+  background-color: #fafafa;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 21px 35px 22px;
+  gap: 4.7px;
+  z-index: 1;
+}
+.frameWrapper {
+  width: 601px;
+  flex-direction: row;
+  padding: 0 28px;
+  text-align: left;
+  font-size: 20px;
+  color: #2f2f2f;
+  font-family: Nunito;
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alicentHightower {
+    font-size: 16px;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+}

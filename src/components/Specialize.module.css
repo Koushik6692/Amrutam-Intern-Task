@@ -1,0 +1,223 @@
+.frameChild {
+  align-self: stretch;
+  height: 251px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: none;
+}
+.iSpecializeIn {
+  position: relative;
+  font-weight: 600;
+}
+.iSpecializeInWrapper {
+  align-self: stretch;
+  border-radius: 15px 18px 0 0;
+  background: linear-gradient(90deg, #f4f7ec, rgba(248, 248, 247, 0.46));
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 37px;
+  z-index: 1;
+}
+.women1Icon {
+  width: 84px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.women1Wrapper {
+  width: 100px;
+  flex: 1;
+  border-radius: 9px;
+  background-color: #fffcf2;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 7px;
+}
+.womensHealth {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 121px;
+}
+.frameGroup {
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.skincare1Icon {
+  width: 84px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+}
+.skincare1Wrapper {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 9px;
+  background-color: #fffcf2;
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 7px;
+}
+.skinCare {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.frameContainer {
+  height: 122px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.immunity1Icon {
+  width: 84px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+}
+.immunity1Wrapper {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 9px;
+  background-color: #fffcf2;
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 3px;
+}
+.immunity {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 68px;
+}
+.frameDiv {
+  height: 122px;
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.hair1Icon {
+  width: 84px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.hair1Wrapper {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 9px;
+  background-color: #fffcf2;
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 7px;
+}
+.hairCare {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 68px;
+}
+.frameParent1 {
+  height: 122px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  justify-content: center;
+  gap: 14px;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  justify-content: flex-start;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 18px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  flex-direction: column;
+  padding: 0 1px 33px 2px;
+  gap: 31px;
+  text-align: left;
+  font-size: 24px;
+  color: #313131;
+  font-family: Nunito;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .iSpecializeIn {
+    font-size: 19px;
+  }
+}

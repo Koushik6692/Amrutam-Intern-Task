@@ -1,0 +1,243 @@
+.frameChild {
+  height: 72px;
+  width: 1440px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+}
+.expertise {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.vectorIcon {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.expertiseParent,
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+  cursor: pointer;
+}
+.expertiseParent {
+  width: 148px;
+  border-radius: 7px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 9px 13px;
+  box-sizing: border-box;
+  gap: 41px;
+  z-index: 1;
+}
+.gender {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+}
+.vectorIcon1 {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.vectorContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.frameWrapper,
+.genderParent,
+.vectorContainer {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.genderParent {
+  align-self: stretch;
+  border-radius: 7px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 9px 13px;
+  gap: 20px;
+  z-index: 1;
+}
+.frameWrapper {
+  width: 158px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+  box-sizing: border-box;
+}
+.fees {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+}
+.vectorIcon2 {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.vectorFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.feesParent,
+.frameContainer,
+.vectorFrame {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.feesParent {
+  align-self: stretch;
+  border-radius: 7px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 9px 15px;
+  gap: 20px;
+  z-index: 1;
+}
+.frameContainer {
+  width: 151px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+}
+.languages {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 79px;
+  cursor: pointer;
+}
+.vectorIcon3 {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.vectorWrapper1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.frameDiv,
+.languagesParent,
+.vectorWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.languagesParent {
+  align-self: stretch;
+  border-radius: 7px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 9px 12px;
+  gap: 20px;
+  z-index: 1;
+}
+.frameDiv {
+  width: 150px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+}
+.allFilters {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 67px;
+}
+.vectorIcon4 {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.vectorWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.allFiltersParent,
+.rectangleParent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.allFiltersParent {
+  width: 142px;
+  border-radius: 7px;
+  background-color: #dceedc;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 9px 10px 9px 13px;
+  gap: 40px;
+  z-index: 1;
+  color: #3a643b;
+  cursor: pointer;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  overflow-x: auto;
+  justify-content: space-between;
+  padding: 16px 241px 12px 234px;
+  max-width: 100%;
+  gap: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #585858;
+  font-family: DINPro;
+}
+@media screen and (max-width: 725px) {
+  .rectangleParent {
+    padding-left: 117px;
+    padding-right: 120px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
